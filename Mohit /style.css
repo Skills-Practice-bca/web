@@ -1,0 +1,210 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    background-color: whitesmoke;
+    padding: 1rem 10rem;
+    margin: 0rem 10rem;
+}
+
+#title {
+    text-align: center;
+    text-shadow: 5px 5px 10px #3d2b2b;
+    font-size: 8vh;
+}
+
+
+
+.sec-2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.row-1 {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sec-col {
+    flex-basis: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.sec-col img {
+    display: block;
+    width: 100%;
+    box-shadow: 5px 6px 10px black;
+
+}
+
+
+
+
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+
+.layer:hover {
+    background-color: rgba(255, 64, 64, 0.7);
+}
+
+.layer h3 {
+
+    border: 1px solid black;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    text-shadow: 5px 5px 10px #3d2b2b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    font-size: 1rem;
+}
+
+.hero-btn:hover{
+    border: 1px solid red;
+    background-color: red;
+    transition: 1s
+}
+
+
+
+div#tribute-data {
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 20px #96c996;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2rem 0rem;
+    
+}
+
+h1.title-vk {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 6px 10px black;
+}
+
+#title-vk {
+    display: block;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 5px 6px 10px black;
+    margin: 25px 0px;
+}
+
+
+
+
+.cours {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+p {
+    color: rgb(170, 170, 170);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 0.5rem;
+}
+
+.row {
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.course-col {
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgb(170, 170, 170);
+}
+
+
+/* **********footer*********** */
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.footer h4 {
+    margin-bottom: 1.5rem;
+    margin-top: 1.25rem;
+    font-weight: 600;
+}
+
+.icons .fa-brands {
+    color: #da5454;
+    margin: 0px 0.5rem;
+    cursor: pointer;
+    padding: 1.2rem 0rem;
+}
