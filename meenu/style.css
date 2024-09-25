@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+
+.header{
+  padding: 2rem;  
+   margin: 2rem auto;  
+   margin-left: 40%;
+    /* background-color: red; */
+}
+
+.tittle{
+    margin-bottom: 1rem;
+}
+
+.Tribute{
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 2.5fr 3fr;
+    /* grid-template-columns: 2.5fr 2fr; */
+    max-width: 77rem;
+    margin: 0px auto;
+    align-items: center;
+    padding: 10px 10px 10px 1rem;
+}
+.Tribute img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.bio {
+    margin: 5rem auto;
+    padding: 0px 0.5rem;
+    max-width: 60rem; 
+}
+
+span{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.bio-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 8rem;
+}
+
+.bio-content img {
+    max-width: 50%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+.bio-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    flex: 1; /* Allow text to take up remaining space */
+    
+}
+
+
+
+.first{
+    width: 100vw;
+    height: 55vh;
+         margin-bottom: 50%;
+        margin: 1rem auto;
+        padding: 0px 0.5rem;
+        max-width: 40rem;
+        }
+
+        .first h3{
+            margin-left: 10px;
+            font-size: 32px;
+            margin-top: 4rem;
+            width: 100vw;        }
+        .first li{
+            font-size: 20px;
+            line-height: 2.4;
+        }
