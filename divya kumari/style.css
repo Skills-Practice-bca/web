@@ -1,0 +1,63 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(26, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    background-color: rgb(30, 31, 31);
+    height: 92%;
+    width: 95%;
+    /* box-shadow: rgba(255,225,225,0.1); */
+    box-shadow:  4px 4px 4px 10px rgb(104, 106, 106) ;
+    border-radius: 10px;
+    /* background-image: url('./image/ellyse-perry-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 45% 80%;
+    background-position: right;
+    border-radius: 2px solid gray; */
+    position: fixed;
+}
+.profile .name{
+    margin: 20px 20px 0px 20rem ;
+    font-size: 30px;
+    color: white;
+}
+.profile .bio-img{
+    display: flex;
+
+justify-content: space-around;
+}
+.profile .image img{
+    width: 33rem;
+    height: 33rem;
+    margin:5px 20px 0px 0px;
+    border-radius: 20px;
+    border: 8px solid rgb(90, 87, 87);
+}
+.profile .biography{
+    padding: 30px;
+    color: white;
+}
+.profile .biography h2{
+    margin-bottom:5px ;
+    font-size: 30px;
+    text-decoration:none;
+    color: rgba(192, 193, 193, 0.826);
+    text-shadow: 1.5px 1px 1.5px rgb(192, 193, 193);
+}
+
+.profile .biography p{
+padding: 25px 50px;
+font-size: 18px;
+text-align: justify;
+
+}
+
