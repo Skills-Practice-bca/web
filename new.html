@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Albert Einstein Tribute Page</title>
+	<link rel="stylesheet" href ="style.css">
+</head>
+<style type="text/css">
+	body {
+	background-color: #f2f2f2; /* light gray background */
+	margin: 20%; /* add some margin to the body */
+}
+
+#title {
+	text-align: center; /* center the title */
+	text-shadow: 5px 5px 10px white; /* add some shadow to the title */
+	font-size: 7vh; /* set the font size to 7vh */
+}
+
+#img {
+	display: inline-block; /* display the image inline */
+	width: 100%; /* set the width of the image to 100% */
+}
+
+#caption {
+	font-size: 17px; /* set the font size of the caption to 17px */
+	font-family: Gill Sans; /* set the font family to Gill Sans */
+	color: black; /* set the color of the caption to black */
+}
+
+#tribute-data {
+	background-color: rgb(46, 139, 87, 0.25); /* set the background color to a light green */
+	box-shadow: 20px 20px 20px #98FB98; /* add some box shadow to the tribute data */
+	font-family: Georgia; /* set the font family to Georgia */
+	padding: 25px 25px; /* add some padding to the tribute data */
+	margin: 11px; /* add some margin to the tribute data */
+	margin-top: 50px; /* add some top margin to the tribute data */
+}
+
+.title-einstein {
+	font-size: 35px; /* set the font size of the title to 35px */
+	color: white; /* set the color of the title to white */
+	text-align: center; /* center the title */
+	text-shadow: 5px 5px 10px black; /* add some shadow to the title */
+}
+
+#tribute-link {
+	text-decoration: none; /* remove the underline from the link */
+	color: black; /* set the color of the link to black */
+}
+</style>
+<body>
+	<main id="main">
+		<!-- Title of the page -->
+		<h1 id="title">Albert Einstein</h1>
+		<div id="img">
+			<!--Image of the Tribute Person-->
+			<img src="einstein.jpg" id="image" alt="Error Loading Image">
+			<small id="caption">Theoretical Physicist and Philosopher</small>
+		</div>
+		<div id="tribute-data">
+			<!--Achievements and other details of the person-->
+			<h1 class="title-einstein">About the Legend</h1>
+			<p>Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics.</p>
+			<ul>
+				<li>He is best known for his mass–energy equivalence formula E = mc².</li>
+				<li>He was awarded the Nobel Prize in Physics in 1921.</li>
+				<li>He is considered one of the most influential scientists of the 20th century.</li>
+			</ul>
+			<p>For more information, check out <a id="tribute-link" href="#">Albert Einstein</a> on Wikipedia.</p>
+		</div>
+	</main>
+</body>
+</html>
